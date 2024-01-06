@@ -104,3 +104,10 @@ html {
 }
 
 
+.bg-image {
+  background-image: url('../public/images/ipo1.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  margin-top: -20px; 
+}

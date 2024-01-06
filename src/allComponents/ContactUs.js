@@ -67,7 +67,7 @@ function ContactUs() {
           </ul>
         </div>
       </div>
-      <h2>{response}</h2>
+      <h2 style={{ textAlign: 'center', marginTop: '20px', color: '#1890ff' }}>{response}</h2>
     </section>
 
   );

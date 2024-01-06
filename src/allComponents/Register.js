@@ -1,13 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Form, Button, FormGroup, FormLabel, FormControl, FormCheck } from 'react-bootstrap';
 
 const Register = () => {
+  const [formData, setFormData] = useState({
+    username: '',
+    email: '',
+    password: '',
+    confirmPassword: '',
+    agreement: false,
+  });
+
   const handleSubmit = (event) => {
     event.preventDefault();
     event.stopPropagation();
     toast.success('Registration successful!');
+    setFormData({
+      username: '',
+      email: '',
+      password: '',
+      confirmPassword: '',
+      agreement: false,
+    });
+  };
+
+  const handleInputChange = (event) => {
+    const { id, value, type, checked } = event.target;
+    const val = type === 'checkbox' ? checked : value;
+    setFormData({ ...formData, [id]: val });
   };
 
   return (
@@ -27,27 +48,56 @@ const Register = () => {
           <Form onSubmit={handleSubmit}>
             <FormGroup controlId="username">
               <FormLabel>Username</FormLabel>
-              <FormControl type="text" placeholder="Enter username" required />
+              <FormControl
+                type="text"
+                placeholder="Enter username"
+                required
+                value={formData.username}
+                onChange={handleInputChange}
+              />
             </FormGroup>
 
             <FormGroup controlId="email">
               <FormLabel>Email</FormLabel>
-              <FormControl type="email" placeholder="Enter email" required />
+              <FormControl
+                type="email"
+                placeholder="Enter email"
+                required
+                value={formData.email}
+                onChange={handleInputChange}
+              />
             </FormGroup>
 
             <FormGroup controlId="password">
               <FormLabel>Password</FormLabel>
-              <FormControl type="password" placeholder="Password" required />
+              <FormControl
+                type="password"
+                placeholder="Password"
+                required
+                value={formData.password}
+                onChange={handleInputChange}
+              />
             </FormGroup>
 
             <FormGroup controlId="confirmPassword">
               <FormLabel>Confirm Password</FormLabel>
-              <FormControl type="password" placeholder="Confirm password" required />
+              <FormControl
+                type="password"
+                placeholder="Confirm password"
+                required
+                value={formData.confirmPassword}
+                onChange={handleInputChange}
+              />
             </FormGroup>
 
             <FormGroup controlId="agreement">
               <FormCheck>
-                <FormCheck.Input type="checkbox" required />
+                <FormCheck.Input
+                  type="checkbox"
+                  required
+                  checked={formData.agreement}
+                  onChange={handleInputChange}
+                />
                 <FormCheck.Label>
                   I have read the <a href="/terms">agreement</a>
                 </FormCheck.Label>
@@ -68,4 +118,3 @@ const Register = () => {
 };
 
 export default Register;
-

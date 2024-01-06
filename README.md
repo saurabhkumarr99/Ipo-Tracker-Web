@@ -1,20 +1,20 @@
-# Stock Market Dashboard
+# IPO Tracker & Currency Pulse Dashboard
 
 ## Description
 
-Welcome to the Stock Market Dashboard! This application provides users with real-time stock market data, analysis tools, and personalized features to track and manage stock investments. This README serves as a guide to understanding the Stock Market Dashboard app and its functionalities.
+Welcome to the IPO Tracker & Currency Pulse Dashboard!. This application serves as a platform where users can access an Upcoming IPO Calendar and stay updated on the latest currency exchange rates. It provides real-time data on IPOs and currency rates. The app focuses on user-friendliness, offering clear information and intuitive navigation.
 
 ## Language : React 
 
 ## Project Links
 
-- GitHub: [Stock Market Dashboard -Web Version (React)](https://github.com/saurabhkumarr99/Stock-Market-Dashboard-Web)
+- GitHub: [IPO Tracker & Currency Pulse Dashboard -Web Version (React)](https://github.com/saurabhkumarr99/Ipo-Tracker-Web)
 
-- GitHub: [Stock Market Dashboard -App Version (React Native)](https://github.com/saurabhkumarr99/Stock-Market-Dashboard-App)
+- GitHub: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)](https://github.com/saurabhkumarr99/Stock-Market-Dashboard-App)
 
-- Live: [Stock Market Dashboard -Web Version (React)](https://saurabhkumarr99.github.io/Host-Stock-Market-Web/)
+- Live: [IPO Tracker & Currency Pulse Dashboard -Web Version (React)](https://saurabhkumarr99.github.io/Host-Stock-Market-Web/)
 
-- Live Expo Go Link: [Stock Market Dashboard -App Version (React Native)] (exp://u.expo.dev/update/12b2b67f-f49c-4b62-bd0e-ad5407f22dd1)
+- Live Expo Go Link: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)] (exp://u.expo.dev/update/12b2b67f-f49c-4b62-bd0e-ad5407f22dd1)
 
 - Live Expo Go QR code: Scan the following QR code with an Android device to open it in Expo Go.
 
@@ -33,11 +33,14 @@ Welcome to the Stock Market Dashboard! This application provides users with real
 
 ## Features
 
-- **Real-time Stock Data:** Access and visualize real-time stock market data from various sources.
-- **Customizable Dashboard:** Create a personalized dashboard with preferred stock categories, sectors, and performance metrics.
-- **Interactive Charts:** Visualize stock data through interactive charts and graphs for in-depth analysis.
-- **Favorites and Watchlists:** Manage favorite stocks and create watchlists for monitoring.
-- **User Settings:** Customize settings for a tailored stock market experience.
+- **User Authentication:** Incorporate user login and registration functionalities.
+- **Upcoming IPO Calendar:** Display upcoming IPOs using an external API endpoint.
+- **Currency Exchange Rates:** Show the latest currency rates via an external API endpoint.
+- **Responsive Design:** Ensure complete functionality and responsiveness on both web and mobile.
+- **User Dashboard:** Post-login, users can access a dashboard displaying IPOs and currency rates.
+- **Data Refresh:** Implement periodic data refresh or user-triggered updates.
+- **Mobile-Specific Features:** Leverage mobile features for an enhanced user experience on the app.
+
 
 ## Getting Started
 
@@ -48,7 +51,7 @@ Welcome to the Stock Market Dashboard! This application provides users with real
 
 Follow these steps to run the Blog App locally:
 
-1. **Unzip the Stock Market Dashboard App:**
+1. **Unzip the IPO Tracker & Currency Pulse Dashboard App:**
 
 2. **Navigate to the project directory:**
 
@@ -90,8 +93,17 @@ Follow these steps to run the Blog App locally:
 
 ## Usage
 
-- **Explore Stock Data**: Use the app to explore stock categories, sectors, and real-time data visualization.
-- **Personalize Dashboard**:Customize your dashboard with preferred stock selections, watchlists, and charts.
+### Upcoming IPO Calendar
+
+- **Explore Upcoming IPOs:** Access the application to view the calendar showcasing upcoming Initial Public Offerings (IPOs).
+- **Stay Updated:** Stay informed about scheduled IPOs and related details for potential investment opportunities.
+- **Track IPO Progress:** Monitor IPOs through the platform to track their performance and success rates.
+
+### Currency Exchange Rates
+
+- **Real-Time Currency Rates:** Utilize the app to check and monitor the latest currency exchange rates.
+- **Compare Different Currencies:** Compare exchange rates between different currency pairs.
+- **Currency Rate Analysis:** Use the provided data for currency rate analysis and informed decision-making.
 
 ## Code Structure
 
@@ -99,7 +111,6 @@ The project follows a structured directory layout for better organization:
 
 - **allComponents/**
 - **ScreenShots/**
-- **reduxComponents/**
 - **App.js**
 - **README.md**
 

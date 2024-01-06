@@ -13,7 +13,7 @@ function AboutUs() {
 
       <h2 style={{ textAlign: 'center' }}>Our Team</h2>
 
-      <div className="row">
+      <div className="row" style={{ maxWidth: '900px', margin: '0 auto' }}>
         <div className="column" >
           <div className="card">
             <img
