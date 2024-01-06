@@ -10,9 +10,9 @@ Welcome to the IPO Tracker & Currency Pulse Dashboard!. This application serves 
 
 - GitHub: [IPO Tracker & Currency Pulse Dashboard -Web Version (React)](https://github.com/saurabhkumarr99/Ipo-Tracker-Web)
 
-- GitHub: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)](https://github.com/saurabhkumarr99/Stock-Market-Dashboard-App)
+- GitHub: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)](https://saurabhkumarr99.github.io/Host-IpoTracker-Web/)
 
-- Live: [IPO Tracker & Currency Pulse Dashboard -Web Version (React)](https://saurabhkumarr99.github.io/Host-Stock-Market-Web/)
+- Live: [IPO Tracker & Currency Pulse Dashboard -Web Version (React)](https://saurabhkumarr99.github.io/Host-IpoTracker-Web/)
 
 - Live Expo Go Link: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)] (exp://u.expo.dev/update/12b2b67f-f49c-4b62-bd0e-ad5407f22dd1)
 
