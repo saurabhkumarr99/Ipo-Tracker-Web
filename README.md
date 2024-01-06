@@ -118,18 +118,13 @@ The project follows a structured directory layout for better organization:
 
 <p align="center">
    <img src="./ScreenShots/1-Home.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/2-AboutUs.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/3-ContactUs.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/4.a-Register.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/4.b-Register.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/4.c-Register.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/2.a-Reg.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/2.b-Reg.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/3-Contactus.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/4-Aboutus.png" alt="Screenshot 1" width="300" />
    <img src="./ScreenShots/5-Login.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/6-AllStock.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/7-FavStock.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/8-Search.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/9.a-AllChart.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/9.b-AllChart.png" alt="Screenshot 1" width="300" />
-   <img src="./ScreenShots/10-FavChart.png" alt="Screenshot 1" width="300" />   
+   <img src="./ScreenShots/6-Ipo.png" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/7-Exchange.png" alt="Screenshot 1" width="300" />
 </p>
 
 
