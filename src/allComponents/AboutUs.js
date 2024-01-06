@@ -3,10 +3,12 @@ import React from 'react';
 function AboutUs() {
   return (
     <div>
-      <div className="about-section bg-primary">
-        <h1>About Us Page</h1>
-        <p>Some text about who we are and what we do.</p>
-        <p>Resize the browser window to see that this page is responsive by the way.</p>
+      <div style={{ backgroundColor: '#1890ff', padding: '20px 0' }}>
+        <div style={{ color: 'white', textAlign: 'center' }}>
+          <h1>About Us Page</h1>
+          <p>Some text about who we are and what we do.</p>
+          <p>Resize the browser window to see that this page is responsive by the way.</p>
+        </div>
       </div>
 
       <h2 style={{ textAlign: 'center' }}>Our Team</h2>

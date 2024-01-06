@@ -12,10 +12,10 @@ const Register = () => {
 
   return (
     <div>
-      <div style={{ backgroundColor: '#1890ff', padding: '20px 0' }}>
+      <div style={{ backgroundColor: '#1890ff', padding: '10px 0' }}>
         <h1 style={{ color: 'white', textAlign: 'center' }}>Register yourself</h1>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '30px' }}>
         <div style={{ width: '30%', padding: '20px', border: '1px solid #ccc', borderRadius: '5px' }}>
           <div style={{ textAlign: 'center', marginBottom: '20px' }}>
             <img
