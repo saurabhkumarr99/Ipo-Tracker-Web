@@ -16,11 +16,7 @@ function AboutUs() {
       <div className="row" style={{ maxWidth: '900px', margin: '0 auto' }}>
         <div className="column" >
           <div className="card">
-            <img
-              src="../../images/jane.jpg"
-              alt="Jane"
-              style={{ width: '100%' }}
-            />
+          <div className='jane'></div>
             <div className="container">
               <h2>Jane Doe</h2>
               <p className="title">CEO & Founder</p>
@@ -35,11 +31,7 @@ function AboutUs() {
 
         <div className="column">
           <div className="card">
-            <img
-              src="../../images/mike.jpg"
-              alt="Mike"
-              style={{ width: '100%' }}
-            />
+            <div className='mike'></div>
             <div className="container">
               <h2>Mike Ross</h2>
               <p className="title">Art Director</p>
@@ -54,11 +46,7 @@ function AboutUs() {
 
         <div className="column">
           <div className="card">
-            <img
-              src="../../images/john.jpg"
-              alt="John"
-              style={{ width: '100%' }}
-            />
+          <div className='john'></div>
             <div className="container">
               <h2>John Doe</h2>
               <p className="title">Designer</p>

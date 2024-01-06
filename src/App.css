@@ -105,9 +105,36 @@ html {
 
 
 .bg-image {
-  background-image: url('../public/images/ipo1.jpeg');
+  /* background-image: url('../public/images/ipo1.jpeg'); */
   background-size: cover;
   background-position: center;
   padding-top: 20px;
   margin-top: -20px; 
+}
+
+.reg-img{
+  content: url('../public/images/RegImg.png');
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.jane{
+  content: url('../public/images/jane.jpg');
+  width: '100%'
+}
+
+.john{
+  content: url('../public/images/john.jpg');
+  width: '100%'
+}
+
+.mike{
+  content: url('../public/images/mike.jpg');
+  width: '100%'
+}
+
+.reg{
+  content: url('../public/images/reg.webp');
 }

@@ -41,11 +41,7 @@ const Register = () => {
           <Col md={6} order-md={2}>
             <div style={{ padding: '20px', border: '1px solid #ccc', borderRadius: '5px' }}>
               <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-                <img
-                  src="/images/RegImg.png"
-                  alt="Registration Image"
-                  style={{ width: '100%', height: 'auto', borderTopLeftRadius: '5px', borderTopRightRadius: '5px' }}
-                />
+                <div className="reg-img"></div>
               </div>
 
               <Form onSubmit={handleSubmit}>
