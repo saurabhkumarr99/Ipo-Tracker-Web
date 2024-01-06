@@ -21,7 +21,7 @@ const Home = () => {
                 <div className="text">
                   <p className="lead" style={{ color: 'blue', fontWeight: 'bold' }}>
                     IPO Tracker & Currency Pulse is an all-in-one platform providing real-time stock market data and comprehensive tools for analysis.
-                  </p>
+                  </p><br></br>
                   <h2>Key Features:</h2>
                   <ul className="list-group">
                     <li className="list-group-item">Explore different stock categories and sectors</li>

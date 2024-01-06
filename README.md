@@ -8,18 +8,19 @@ Welcome to the IPO Tracker & Currency Pulse Dashboard!. This application serves 
 
 ## Project Links
 
+
 - GitHub: [IPO Tracker & Currency Pulse Dashboard -Web Version (React)](https://github.com/saurabhkumarr99/Ipo-Tracker-Web)
 
-- GitHub: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)](https://saurabhkumarr99.github.io/Host-IpoTracker-Web/)
+- GitHub: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)](https://github.com/saurabhkumarr99/Ipo-Tracker-App)
 
 - Live: [IPO Tracker & Currency Pulse Dashboard -Web Version (React)](https://saurabhkumarr99.github.io/Host-IpoTracker-Web/)
 
-- Live Expo Go Link: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)] (exp://u.expo.dev/update/12b2b67f-f49c-4b62-bd0e-ad5407f22dd1)
+- Live Expo Go Link: [IPO Tracker & Currency Pulse Dashboard -App Version (React Native)] (exp://u.expo.dev/update/22038225-60c1-4831-bf19-af2275460e99)
 
 - Live Expo Go QR code: Scan the following QR code with an Android device to open it in Expo Go.
 
 <p align="center">
-  <img src="./ScreenShots/StockMarketQR.png" alt="Screenshot 1" width="300" />
+  <img src="./ScreenShots/expo.png" alt="Screenshot 1" width="300" />
 </p>
 
 ## Table of Contents
@@ -116,6 +117,8 @@ The project follows a structured directory layout for better organization:
 
 ## Screenshots
 
+### Web (React)
+
 <p align="center">
    <img src="./ScreenShots/1-Home.png" alt="Screenshot 1" width="300" />
    <img src="./ScreenShots/2.a-Reg.png" alt="Screenshot 1" width="300" />
@@ -127,18 +130,38 @@ The project follows a structured directory layout for better organization:
    <img src="./ScreenShots/7-Exchange.png" alt="Screenshot 1" width="300" />
 </p>
 
+### App (React Native)
+
+<p align="center">
+   <img src="./ScreenShots/11-Home.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/12.a-Reg.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/12.b-Reg.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/12.c-Reg.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/13-Contact.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/14-About.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/15-Login.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/16.a-PreLogin.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/16.b-PostLogin.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/17-Ipo.jpg" alt="Screenshot 1" width="300" />
+   <img src="./ScreenShots/18-Exchange.jpg" alt="Screenshot 1" width="300" />
+</p>
+
 
 - `Unit Test`
 <p align="center">
-  <img src="./ScreenShots/4.png" alt="UnitTest" width="300" />
-  <img src="./ScreenShots/5.png" alt="UnitTest" width="300" />
+  <img src="./ScreenShots/UnitTest.png" alt="UnitTest" width="300" />
+</p
+
+- `Selenium Test`
+<p align="center">
+  <img src="./ScreenShots/Selenium.png" alt="UnitTest" width="300" />
 </p
 
 - `Coverage Test`
 <p align="center">
-  <img src="./ScreenShots/1.png" alt="UnitTest" width="300" />
-  <img src="./ScreenShots/2.png" alt="UnitTest" width="300" />
-  <img src="./ScreenShots/3.png" alt="UnitTest" width="300" />
+  <img src="./ScreenShots/1.a-codecoverage.png" alt="UnitTest" width="300" />
+  <img src="./ScreenShots/1.b-codecoverage.png" alt="UnitTest" width="300" />
+  <img src="./ScreenShots/1.c-codecoverage.png" alt="UnitTest" width="300" />
 </p
 
 
