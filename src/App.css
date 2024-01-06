@@ -138,3 +138,18 @@ html {
 .reg{
   content: url('../public/images/reg.webp');
 }
+
+.image {
+  width: 100px;
+  height: 100px;
+  /* Your image styling here */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
