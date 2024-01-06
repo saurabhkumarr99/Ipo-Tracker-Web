@@ -56,7 +56,7 @@ Follow these steps to run the Blog App locally:
 2. **Navigate to the project directory:**
 
    ```bash
-   cd StockMarketDashboardWeb
+   cd IpoTrackerWeb
    ``` 
 
 2. **Install Dependencies:**
