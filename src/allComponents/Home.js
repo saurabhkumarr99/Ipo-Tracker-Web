@@ -27,7 +27,7 @@ const Home = () => {
                     <li className="list-group-item">Display upcoming IPOs using an external API endpoint</li>
                     <li className="list-group-item">Show the latest currency rates via an external API endpoint</li>
                     <li className="list-group-item">Implement periodic data refresh or user-triggered updates</li>
-                    <li className="list-group-item">Show the latest currency rates via an external API endpoint</li>
+                    <li className="list-group-item">Leverage mobile features for an enhanced user experience on the app</li>
                   </ul>
                   <br />
                   {isAuthenticated ? (
