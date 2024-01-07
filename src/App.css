@@ -145,11 +145,22 @@ html {
   /* Your image styling here */
 }
 
-/* Media query for mobile view */
-@media (max-width: 768px) {
+
+ /* Media query for mobile view */
+ @media (max-width: 768px) {
   .row {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 80%;
   }
 }
 

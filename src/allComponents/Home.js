@@ -24,10 +24,10 @@ const Home = () => {
                   </p><br></br>
                   <h2>Key Features:</h2>
                   <ul className="list-group">
-                    <li className="list-group-item">Explore different stock categories and sectors</li>
-                    <li className="list-group-item">Create a personalized dashboard tailored to your preferences</li>
-                    <li className="list-group-item">Experience real-time data visualization with interactive charts</li>
-                    <li className="list-group-item">Customize settings for an enriched and personalized experience</li>
+                    <li className="list-group-item">Display upcoming IPOs using an external API endpoint</li>
+                    <li className="list-group-item">Show the latest currency rates via an external API endpoint</li>
+                    <li className="list-group-item">Implement periodic data refresh or user-triggered updates</li>
+                    <li className="list-group-item">Show the latest currency rates via an external API endpoint</li>
                   </ul>
                   <br />
                   {isAuthenticated ? (

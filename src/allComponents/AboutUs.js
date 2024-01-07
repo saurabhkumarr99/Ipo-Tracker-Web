@@ -14,7 +14,7 @@ function AboutUs() {
       <h2 style={{ textAlign: 'center' }}>Our Team</h2>
 
       <div className="row" style={{ maxWidth: '900px', margin: '0 auto' }}>
-        <div className="column" style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className="column">
           <div className="card">
             <div className="jane"></div>
             <div className="container">
@@ -29,7 +29,7 @@ function AboutUs() {
           </div>
         </div>
 
-        <div className="column" style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className="column">
           <div className="card">
             <div className="mike"></div>
             <div className="container">
@@ -44,7 +44,7 @@ function AboutUs() {
           </div>
         </div>
 
-        <div className="column" style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className="column">
           <div className="card">
             <div className="john"></div>
             <div className="container">
